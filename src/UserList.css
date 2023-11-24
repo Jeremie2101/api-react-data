@@ -1,0 +1,43 @@
+/* UserList.css */
+
+.user-list-container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  h1 {
+    color: #3498db;
+    text-align: center;
+  }
+  
+  .table-header {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 3fr;
+    padding: 10px 0;
+    font-weight: bold;
+    border-bottom: 2px solid #3498db;
+  }
+  
+  .user-card {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 3fr;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .user-card:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .user-card div {
+    padding: 5px;
+  }
+  
+  
+  
